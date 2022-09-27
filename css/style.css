@@ -7587,7 +7587,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 4rem !important;
 }
 
 .pr-5,
@@ -9702,4 +9702,26 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+@media screen and (max-width: 992px) {
+  .pt-5,
+  .py-5 {
+    padding-top: 3rem !important;
+  }
+  
+  .pb-5,
+  .py-5 {
+    padding-bottom: 2rem !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pt-5,
+  .py-5 {
+    padding-top: 2rem !important;
+  }
+  
+  .pb-5,
+  .py-5 {
+    padding-bottom: 2rem !important;
+  }
 }
